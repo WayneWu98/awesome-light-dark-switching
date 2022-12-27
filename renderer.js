@@ -58,7 +58,6 @@ window.onload = () => {
       const DURATION = 400
       const raf = () => {
         const percentage = (performance.now() - now) / DURATION
-        // const percentage = 0.5
         const r = radius * (reverse ? 1 - percentage : percentage)
         ctx.clearRect(0, 0, w, h)
         ctx.save()
