@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "electron": "^22.0.0"
+  },
+  "scripts": {
+    "dev": "npx electron ."
+  },
+  "name": "awsome-light-dark-switching",
+  "version": "1.0.0",
+  "main": "main.js",
+  "keywords": [],
+  "author": "Wayne Wu <wayne-wu@outlook.com>",
+  "license": "ISC",
+  "description": ""
+}
